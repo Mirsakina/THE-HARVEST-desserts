@@ -94,8 +94,6 @@ nav{
     background-color: rgba(0, 0, 0, 0.41);
     .quick-basket-card{
         width: 400px;
-        height: 500px;
-        overflow-y: auto;
         box-shadow: 0 0 10px 1px brown;
         position: absolute;
         top: 90px;
@@ -107,6 +105,8 @@ nav{
         transition: all.4s;
         padding: 30px;
         .quick-products{
+            height: 400px;
+            overflow-y: auto;
             padding: 0;
             margin: 0;
             list-style: none;
@@ -130,7 +130,7 @@ nav{
             }
             button{
                 cursor: pointer;
-                padding: 8px 14px;
+                padding: 5px 10px;
                 font-size: 20px;
                 color: #fff;
                 background-color: rgb(168, 8, 8);
@@ -138,6 +138,11 @@ nav{
                 border-radius: 50%;
                 margin-inline: 6px;
             }
+        }
+        .totalPrice{
+            margin-top: 20px;
+            font-size: 25px;
+            font-weight: 500;
         }
         }
     }
